@@ -62,7 +62,7 @@ class DETR(nn.Module):
 
         print("features")
         print(len(features))
-        print(features[-1].shape)
+        # print(features[-1].shape)
 
         print("pos")
         print(len(pos))
